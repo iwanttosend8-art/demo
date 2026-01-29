@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GitHub Folder Uploader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+  <h1>GitHub Folder Uploader</h1>
+
+  <input id="token" placeholder="GitHub Token (repo scope)" />
+  <input id="repo" placeholder="New Repository Name" />
+
+  <input type="file" id="folder" webkitdirectory multiple />
+
+  <div id="tree"></div>
+
+  <button id="upload">Create Repo & Upload</button>
+
+  <div id="status"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
